@@ -1,0 +1,108 @@
+/* Add the following styles to your existing style.css file */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*background-color: #fcfcfc;*/
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 30px; /* Add spacing below the header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1em;
+}
+
+#about {
+    padding: 2em 2%; /* Add wider margins on the sides */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between the image and text */
+    margin: 0 15%; /* Add wider margins on the sides */
+}
+
+.profile-image img {
+    width: 350px; /* Set a fixed width */
+    height: 350px; /* Set a fixed height */
+    border-radius: 100px; /* Add rounded corners */
+    margin-right: 30px; /* Increase the margin between the image and text */
+}
+
+.bio {
+    flex: 1;
+    padding: 0 3em; /* Add more padding on the sides */
+}
+
+/* Add the following styles to your existing style.css file */
+
+.project,
+.edu,
+.awards {
+    padding: 0.5em 5%;
+}
+
+.project-details,
+.edu-details,
+.awards-details {
+    margin: 0 10%;
+}
+
+.project h2,
+.edu h2,
+.awards h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.project p,
+.edu p,
+.awards p {
+    font-size: 1em;
+}
+
+.awards-details {
+    margin-bottom: 3em; /* Adjust the bottom margin for spacing between awards */
+}
+
+
+
+.creations {
+    padding: 0.5em 10%; /* Adjust the padding for creations (top, right, bottom, left) */
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.creations-details {
+    margin: 0 2%; /* Adjust the margin as needed */
+    margin-bottom: 1em;
+}
+
+.creations h2 {
+    font-size: 1.15em;
+    margin-bottom: 0.5em;
+}
+
+.creations p {
+    font-size: 0.8em;
+}
+
